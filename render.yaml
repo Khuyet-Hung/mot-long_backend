@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: mot-long-backend
+    runtime: node
+    region: singapore
+    buildCommand: cd backend && ./build.sh
+    startCommand: cd backend && node dist/server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
