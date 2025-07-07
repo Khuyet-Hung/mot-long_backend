@@ -7,9 +7,7 @@
     "build": "tsc",
     "start": "node dist/server.js",
     "dev": "tsx watch src/server.ts",
-    "clean": "rimraf dist",
-    "render-build": "npm install && npm run build",
-    "render-start": "node dist/server.js"
+    "clean": "rimraf dist"
   },
   "keywords": ["express", "typescript", "mongodb", "cloudinary"],
   "author": "",
