@@ -4,7 +4,7 @@
   "description": "Backend API for volunteer group management",
   "main": "dist/server.js",
   "scripts": {
-    "build": "npm i && tsc",
+    "build": "tsc",
     "start": "node dist/server.js",
     "dev": "tsx watch src/server.ts",
     "clean": "rimraf dist"
